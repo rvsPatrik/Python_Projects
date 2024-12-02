@@ -7,16 +7,23 @@
 import os
 import shutil
 import pathlib
+import json
+import sys
 
-folder_mapping = {
-    "Web" : [".html",".xhtml",".htm"],
-    "Photos" : [".jpeg",".png",".gif",".jpg",".bmp"],
-    "Audio" : [".mp3",".m4p",".raw",".vox"],
-    "Video" : [".avi",".mkv",".mp4",".wmv",".webm"],
-    "Shortcuts" : [".url",".lnk"],
-    "Compressed" : [".rar",".7zip",".iso",".tar",".gz",".xar",".rz",".zip"],
-    "Documents" : [".txt",".xml",".docx",".ppt",".db",],  #might need changing
-}
+script_dir = os.path.dirname(os.path.abspath(__file__))
+mapping_file = os.path.join(script_dir, "folder_mapping.json")
+
+try:
+    with open(mapping_file, "r", encoding="utf-8") as file:
+        folder_mapping = json.load(file)
+    print("Loaded folder mapping from JSON file.")
+except FileNotFoundError:
+    print(f"Mapping file not found. It's expected location: {mapping_file}")
+    sys.exit()
+
+fileTypes = list(folder_mapping.keys())
+fileFormats = list(folder_mapping.values())
+
 
 fileTypes = list( folder_mapping.keys() )
 fileFormats = list( folder_mapping.values() )
