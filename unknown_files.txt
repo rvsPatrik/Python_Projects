@@ -1,2 +1,0 @@
-- .json	C:\Users\rvspa\Desktop\Tester\folder_mapping.json
-- .json	C:\Users\rvspa\Desktop\Tester\folder_mapping.json
