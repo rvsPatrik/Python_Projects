@@ -7,7 +7,6 @@
 import tkinter as tk
 import requests
 import os
-from datetime import datetime
 from dotenv import load_dotenv
 
 
