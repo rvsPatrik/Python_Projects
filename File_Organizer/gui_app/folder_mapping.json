@@ -43,6 +43,8 @@
         ".xml",
         ".docx",
         ".ppt",
-        ".db"
+        ".db",
+        ".pdf",
+        "xlsx"
     ]
 }
