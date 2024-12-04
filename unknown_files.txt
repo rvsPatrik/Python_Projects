@@ -1,7 +1,0 @@
-- .pdf	C:\Users\rvspa\Desktop\09260NCQSM.pdf
-- .xlsx	C:\Users\rvspa\Desktop\Book1.xlsx
-- .ini	C:\Users\rvspa\Desktop\desktop.ini
-- .pdf	C:\Users\rvspa\Desktop\Ertesito_-_Revesz_Zsolt.pdf
-- .exe	C:\Users\rvspa\Desktop\File Organizer.exe
-- .py	C:\Users\rvspa\Desktop\get-pip.py
-- .pdf	C:\Users\rvspa\Desktop\jelentkezesilap.pdf
